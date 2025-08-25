@@ -1,0 +1,55 @@
+- name: GPT-4
+  safety: true
+  reasoning: true
+  multilingual: true
+  cost: high
+  latency: medium
+  scale: large
+
+- name: GPT-3.5
+  safety: true
+  reasoning: false
+  multilingual: true
+  cost: medium
+  latency: medium
+  scale: medium
+
+- name: Mistral-7B
+  safety: false
+  reasoning: medium
+  multilingual: true
+  cost: low
+  latency: low
+  scale: small
+
+- name: LLaMA-2-70B
+  safety: medium
+  reasoning: true
+  multilingual: true
+  cost: medium
+  latency: high
+  scale: large
+
+- name: Claude-3
+  safety: true
+  reasoning: true
+  multilingual: true
+  cost: high
+  latency: medium
+  scale: large
+
+- name: Falcon-40B
+  safety: medium
+  reasoning: true
+  multilingual: false
+  cost: medium
+  latency: medium
+  scale: medium
+
+- name: Gemma-2B
+  safety: low
+  reasoning: low
+  multilingual: false
+  cost: low
+  latency: low
+  scale: small

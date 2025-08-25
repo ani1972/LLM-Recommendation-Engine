@@ -1,0 +1,9 @@
+{
+    "application_type": "healthcare",
+    "dataset_size": "large",
+    "safety_sensitive": true,
+    "needs_reasoning": true,
+    "multilingual": true,
+    "cost_budget": "medium",
+    "latency_budget": "low"
+}

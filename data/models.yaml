@@ -1,0 +1,40 @@
+
+# Catalog of candidate LLMs and their attributes/features
+# You can safely rename/extend this list.
+models:
+  - id: gpt-4o-mini
+    provider: openai
+    open_source: false
+    cost_tier: high
+    latency_tier: medium
+    strengths: [reasoning, coding, general, multilingual]
+  - id: claude-3-5-sonnet
+    provider: anthropic
+    open_source: false
+    cost_tier: high
+    latency_tier: medium
+    strengths: [reasoning, safety, general]
+  - id: llama-3-8b-instruct
+    provider: meta
+    open_source: true
+    cost_tier: low
+    latency_tier: low
+    strengths: [fine_tuning, low_cost, general, multilingual]
+  - id: mistral-7b-instruct
+    provider: mistral
+    open_source: true
+    cost_tier: low
+    latency_tier: low
+    strengths: [speed, low_cost, general]
+  - id: qwen2-7b-instruct
+    provider: alibaba
+    open_source: true
+    cost_tier: low
+    latency_tier: low
+    strengths: [multilingual, coding, general]
+  - id: phi-3.5-mini
+    provider: microsoft
+    open_source: true
+    cost_tier: very_low
+    latency_tier: very_low
+    strengths: [speed, low_cost, small_memory]
